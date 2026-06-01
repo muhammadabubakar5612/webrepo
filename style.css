@@ -1,0 +1,407 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+   width: 100%;
+   height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+   
+   
+}
+#header{
+   background-color:white;
+   width: 100%;
+   height: 10%;
+   position: fixed;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   z-index: 100;
+}
+#fakeHeader{
+   background-color: rgb(160, 158, 154);
+   width: 100%;
+   height: 10%;
+}
+#page1{
+    width: 100%;
+   height: 90%;
+     background-color:white;
+   
+}
+#page2{
+    width: 100%;
+   height: 90%;
+    background-color:white;
+}
+#logo{
+   margin: 10px;
+  
+}
+#logo,img{
+      height: 40px;
+      object-fit: cover;
+}
+.texts:hover{
+   
+  
+  color: blue;
+}
+.texts{
+   
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   margin: 40px;
+  color: rgb(18, 18, 75);
+  
+}
+
+#contactdetails:hover{
+      color: blue;
+      align-items: center;
+      justify-content: center;
+}
+#contactdetails{
+  
+      text-align: center;
+      font-weight: lighter;
+}
+.icons{
+     padding: 10px;
+     border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+}
+.icons:hover{
+   background-color: lightblue;
+}
+#login{
+   padding: 10px;
+   border-radius: 50px;
+   margin: 40px;
+   display: flex;
+}
+#login:hover{
+   background-color: lightblue;
+}
+#tryforfree{
+   color: white;
+      background-color: rgb(52, 123, 52);
+      padding: 10px 20px;
+}
+#tryforfree:hover{
+   background-color: rgb(18, 30, 18);
+}
+#strip{
+   width: 100%;
+   height: 8%;
+   font-weight: normal;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  color: white;
+   background-color: darkblue;
+}
+#strip u{
+   font-weight: lighter;
+   margin-left: 20px;
+}
+#content{
+   width: 100%;
+   height: 78%;
+   display: flex;
+   align-items: center;
+    background-color:white;
+   justify-content: space-around;
+}
+#box1{
+   width: 47%;
+   height: 90%;
+   background-color:white;
+   margin: 10px;
+}
+
+
+#box2{
+     margin: 10px;
+   width: 47%;
+   height: 90%;
+   display: flex;
+
+   align-items: center;
+   justify-content: center;
+    background-color: azure;
+}
+#head{
+   font-weight: lighter;
+   font-size: 70px;
+   margin-top: 50px;
+   margin-left: 30px;
+   height: 35%;
+   width: 100%;
+   color: darkblue;
+}
+#box1 p{
+   margin: 30px;
+   height: 35%;
+   width: 100%;
+   font-size: 30px;
+   font-weight: 100;
+}
+#buttons{
+   width: 100%;
+   height: 35%;
+   display: flex;
+   margin: 30px;
+
+}
+#button1{
+   padding: 10px 20px;
+   margin-bottom: 50px;
+   text-align: center;
+   width: 100px;
+   height: 23px;
+   color: white;
+   background-color: rgb(54, 54, 157);
+}
+#button2{
+   text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    width: 100px;
+    margin-left: 20px;
+    height: 23px;
+    color: blue;
+   border: 2px solid lightblue;
+   border-radius: 4px;
+}
+#button1:hover{
+   background-color: darkblue;
+}
+#button2:hover{
+   color: darkblue;
+   border-color: darkblue;
+   background-color: rgb(230, 238, 241);
+}
+#learn{
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 16%;
+   background-color:white;
+   color: rgb(68, 68, 172);
+   font-weight: 600;
+}
+#box2 img{
+   width: 100%;
+   height: 100%;
+    
+   
+}
+#card{
+   position: absolute;
+    width: 33%;
+    height: 300px;
+    border-radius: 10px ;
+    border:1px solid black;
+   background-color: white;
+   overflow: hidden;
+   object-fit: cover;
+}
+#page2{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2 img{
+   width: 100%;
+   height: 100%;
+}
+
+.dives{
+   width: 250px;
+   height: 40%;
+   border-radius: 10px;
+   background-color: rgb(163, 187, 200);
+}
+#div1{
+   position: absolute;
+   margin-right: 60%;
+}
+#div2{
+      position: absolute;
+   margin-right: 20%;
+}
+#div3{
+      position: absolute;
+   margin-left: 20%;
+}
+#div4{
+      position: absolute;
+   margin-left: 60%;
+}
+#circle1{
+   width: 100px;
+   height: 100px;
+     display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   margin: 10%;
+   margin-left: 25%;
+   object-fit: contain;
+   overflow: hidden;
+   background-color: white;
+}
+#circle1 img{
+   width: 100%;
+   height: 100%;
+
+}
+#div1 h2{
+   margin: 10%;
+   font-weight: lighter;
+}
+#div1 p{
+   margin: 10%;
+   font-weight: lighter;
+}
+#div1 u{
+   margin: 10%;
+   font-weight: 200;
+}
+#circle2{
+   width: 100px;
+   height: 100px;
+     display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   margin: 10%;
+   margin-left: 25%;
+   object-fit: contain;
+   overflow: hidden;
+   background-color: white;
+}
+#div2 h2{
+   margin: 10%;
+   font-weight: lighter;
+}
+#div2 p{
+   margin: 10%;
+   font-weight: lighter;
+}
+#div2 u{
+   margin: 10%;
+   font-weight: 200;
+}
+#circle3{
+   width: 100px;
+   height: 100px;
+     display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   margin: 10%;
+   margin-left: 25%;
+   object-fit: contain;
+   overflow: hidden;
+   background-color: white;
+}
+#div3 h2{
+   margin: 10%;
+   font-weight: lighter;
+}
+#div3 p{
+   margin: 10%;
+   font-weight: lighter;
+}
+#div3 u{
+   margin: 10%;
+   font-weight: 200;
+}
+#circle4{
+   width: 100px;
+   height: 100px;
+     display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   margin: 10%;
+   margin-left: 25%;
+   object-fit: contain;
+   overflow: hidden;
+   background-color: white;
+}
+#div4 h2{
+   margin: 10%;
+   font-weight: lighter;
+}
+#div4 p{
+   margin: 10%;
+   font-weight: lighter;
+}
+#div4 u{
+   margin: 10%;
+   font-weight: 200;
+}
+u:hover{
+   color: blue;
+}
+#btn{
+   width: 150px;
+   height: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   margin-top: 30%;
+   border: 1px solid;
+}
+#btn:hover{
+   background-color: lightblue;
+   color: blue;
+}
+@media (max-width:768px){
+
+#content{
+   flex-direction: column;
+}
+
+#box1,#box2{
+   width: 90%;
+}
+
+#head{
+   font-size: 40px;
+}
+
+#box1 p{
+   font-size: 18px;
+}
+
+#page2{
+   flex-wrap: wrap;
+}
+
+.dives{
+   width: 80%;
+   margin: 10px;
+}
+
+#header{
+   flex-wrap: wrap;
+   height: auto;
+}
+
+}
